@@ -53,3 +53,24 @@ console.log(str.substring(1, 3));
 
 console.log(str.substring(2));
 // Expected output: "zilla"
+
+
+//Arrow functions remove the function (x)
+
+const newNumbers = numbers.map( (x) => {
+    return x + 4;
+})
+
+//OR
+const newNumbers = numbers.map( x =>  x + 4);
+
+
+//OR 
+const newNumbers = numbers.map( x => {
+    return x + 4;
+})
+
+//OR 
+const newNumbers = numbers.map( (x, y) => {
+    return x + y;
+})
